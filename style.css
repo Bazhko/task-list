@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+.task-list {
+    margin: 0;
+    padding: 0;
+}
+.task {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    font-size: 18px;
+    -webkit-user-select: none;
+}
+.task:hover {
+    border: 2px solid green;
+}
+.checked {
+    background: aquamarine;
+    color: darkgray;
+    text-decoration: line-through;
+}
+.add-btn:hover {
+    background: green;
+    cursor: pointer;
+}
+.clear-btn:hover {
+    background: red;
+    cursor: pointer
+}
